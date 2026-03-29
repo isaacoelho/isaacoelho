@@ -11,16 +11,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate snake
-        uses: Platane/snk@v3
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          github_user_name: isaacoelho
-          outputs: |
-            dist/github-contribution-grid-snake.gif
-            dist/github-contribution-grid-snake.svg
-
+      -
+name: Generate snake
+  uses: Platane/snk@v3
+  with:
+    github_user_name: isaacoelho
+    outputs: |
+      dist/github-contribution-grid-snake.gif
+      dist/github-contribution-grid-snake.svg
+  env:
+    GH_PAT: ${{ secrets.GH_TOKEN }}
       - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
