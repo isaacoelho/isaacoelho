@@ -18,10 +18,9 @@
 </div>
 
 
-![Snake animation](https://raw.githubusercontent.com/isaacoelho/isaacoelho/output/github-contribution-grid-snake.svg)
-
-
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/isaacoelho/isaacoelho/output/github-contribution-grid-snake.gif" />
+</p
 
 
 
