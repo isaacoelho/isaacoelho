@@ -20,8 +20,9 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.gif
             dist/github-contribution-grid-snake.svg
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            env:
+    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }
+
 
       - uses: crazy-max/ghaction-github-pages@v3
         with:
