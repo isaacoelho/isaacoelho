@@ -18,8 +18,7 @@
 </div>
 
 
-![Snake animation](https://github.com/isaacoelho/isaacoelho/blob/output/github-contribution-grid-snake.svg)
-
+![Snake animation](https://raw.githubusercontent.com/isaacoelho/isaacoelho/output/github-contribution-grid-snake.svg)
 
 
 
